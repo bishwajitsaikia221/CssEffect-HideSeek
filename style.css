@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ephesis', cursive;
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #acd2fb;
+}
+
+.main-div{
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    background-color: blue;
+    border-radius: 10px;
+    clip-path: circle(30.7% at 100% 0);
+    transition: all 0.3s;
+}
+
+.main-div h1{
+    margin: 30px 0;
+    color: rgb(12, 224, 231);
+
+}
+.main-div p{
+    color: rgb(255, 255, 255);
+    line-height: 150%;
+}
+.main-div h3{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.main-div:hover{
+    clip-path: circle(141.3% at 100% 0);
+}
